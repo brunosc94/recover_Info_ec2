@@ -43,7 +43,7 @@ def main():
             sg_ip_permission = client_ec2.describe_security_groups(Filters=filtro_vpc).get('SecurityGroups', [{}])[0].get('IpPermissions')
             sg_ip_permission_egress = client_ec2.describe_security_groups(Filters=filtro_vpc).get('SecurityGroups', [{}])[0].get('IpPermissionsEgress')
 
-            #Imprindo no console os resultados
+            #Imprimindo no console os resultados
             print(
                 f"#### INSTANCE {i} #####\n"
                 f"STATE: {status_instance}\n"
