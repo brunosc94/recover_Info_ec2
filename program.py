@@ -43,7 +43,7 @@ def main():
             sg_ip_permission = client_ec2.describe_security_groups(Filters=filtro_vpc).get('SecurityGroups', [{}])[0].get('IpPermissions')
             sg_ip_permission_egress = client_ec2.describe_security_groups(Filters=filtro_vpc).get('SecurityGroups', [{}])[0].get('IpPermissionsEgress')
 
-            #Imprimindo no console os resultados
+            #Imprimindo no console os resultados obtidos
             print(
                 f"#### INSTANCE {i} #####\n"
                 f"STATE: {status_instance}\n"
@@ -52,7 +52,7 @@ def main():
                 f"VPC ID: {vpc_id}\n"
                 f"SUBNET: {id_subnet}\n"
                 f"VPC NACL: {vpc_nacl}\n"
-                f"ROUTE TABLE SUBNET: {rt_subnet}\n"
+                f"SUBNET ROUTE TABLE: {rt_subnet}\n"
                 f"SECURITY GROUP ID: {sg_id}\n"
                 f"SECURITY GROUP NAME: {sg_name}\n"
                 f"SECURITY GROUP PERMISSION: {sg_ip_permission}\n"
@@ -61,6 +61,7 @@ def main():
             )
             i += 1
 
+    #Verificação se há alguma instância ligada
     if i == 1:
         print('Nenhuma instância ligada nessa região')
 
