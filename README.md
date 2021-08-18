@@ -27,7 +27,7 @@ python3 program.py
 
 ## Contribuição
 
-1. Fork (<https://github.com/nivaldogodinho/tellMeEC2.git>)
+1. Fork (<https://github.com/brunosc94/recover_Info_ec2.git>)
 2. Crie sua branch de recursos (`git checkout -b feature`)
 3. Commit suas modificações (`git commit -am 'Adicionando recursos'`)
 4. Push para a branch (`git push origin feature`)
