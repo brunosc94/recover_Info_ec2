@@ -35,6 +35,4 @@ python3 program.py
 
 ## Aviso
 
-```sh
-A informação sobre SUBNET ROUTE TABLE estão imprecisas, o mesmo está sendo verificado e será disponibilizado nova versão do script com a correção do problema!
-```
+`A informação sobre SUBNET ROUTE TABLE estão imprecisas, o mesmo está sendo verificado e será disponibilizado nova versão do script com a correção do problema!`
