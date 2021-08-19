@@ -1,11 +1,11 @@
-# PROGRAM.PY
+# PROGRAM
 > O script mencionado faz uma busca por instâncias EC2 em execução na sua região e retorna algumas informações básicas sobre a instância, VPC e Security Group da mesma.
 
 ## Instalação
 
 _Não há necessidade de fazer instalação do script, apenas ter o ambiente configurado conforme os pré requisitos listados logo abaixo. Todos os testes e uso foram feitos no ambiente linux, portanto os próximos passos é considerando que esteja utilizando o SO mencionado ou o WSL2._
 
-### Pré Requisitos do ambiente
+###### Pré Requisitos do ambiente
 
 * Ter o AWS CLI instalado e configurado na sua máquina com sua 'aws_access_key_id', 'aws_secret_access_key' e 'region'
     * Instalar AWS CLI: https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-install.html
